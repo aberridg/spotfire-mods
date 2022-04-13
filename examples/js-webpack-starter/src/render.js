@@ -164,8 +164,6 @@ export async function render(state, mod, dataView, windowSize, example) {
 
     svg.append("g").attr("class", "hover-line").attr("clip-path", "url(#clipPath)");
 
-
-
     for (const row of allRows) {
         console.log(row.categorical("X").value());
     }
@@ -177,6 +175,6 @@ export async function render(state, mod, dataView, windowSize, example) {
         console.log(xLeaf.formattedPath());
     }
 
-    // Now render here!
-    
+    // Now render here!    
+
 }
