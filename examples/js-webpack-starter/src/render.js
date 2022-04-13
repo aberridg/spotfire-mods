@@ -176,8 +176,7 @@ export async function render(state, mod, dataView, windowSize, example) {
     for (const xLeaf of xLeaves) {
         console.log(xLeaf.formattedPath());
     }
-        
 
     // Now render here!
-  
+    
 }
